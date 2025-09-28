@@ -18,6 +18,8 @@ class Node{
     }
 };
 
+//..........Construct the Binary Tree....
+
 Node* build_tree(){
     int data;
     cout <<"Enter the data "<< endl;
@@ -130,3 +132,4 @@ int main(){
     return 0;
 
 }
+
