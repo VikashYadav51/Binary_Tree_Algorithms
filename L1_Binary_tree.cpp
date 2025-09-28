@@ -3,6 +3,8 @@
 #include<queue>
 using namespace std;
 
+//......Generate a Node template Using class
+
 class Node{
     public:
     int data;
@@ -126,4 +128,5 @@ int main(){
 
     
     return 0;
+
 }
