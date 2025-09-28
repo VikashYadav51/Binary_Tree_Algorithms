@@ -73,7 +73,7 @@ void print_data(Node* root){
 
 }
 
-
+//..........Print the data in Inorder way........
 void Print_Inorder(Node* root){
     if(root == nullptr){
         return ;
@@ -85,6 +85,8 @@ void Print_Inorder(Node* root){
 
 }
 
+//............Print the data Preorder.....
+
 void Print_Preorder(Node* root){
     if(root == nullptr){
         return ;
@@ -95,6 +97,8 @@ void Print_Preorder(Node* root){
     Print_Preorder(root->right);
 
 }
+
+//..........Print the data Postorder.....
 
 void Print_Postorder(Node* root){
     if(root == nullptr){
@@ -132,5 +136,6 @@ int main(){
     return 0;
 
 }
+
 
 
