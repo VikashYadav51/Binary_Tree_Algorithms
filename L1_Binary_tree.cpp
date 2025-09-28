@@ -40,7 +40,7 @@ Node* build_tree(){
     return root;
 }
 
-
+//..........Print the data in Level of treversal order
 void print_data(Node* root){
     if(root == nullptr){
         return ;
@@ -132,4 +132,5 @@ int main(){
     return 0;
 
 }
+
 
